@@ -1,5 +1,6 @@
 const Home = () => {
-  return <div id="home">hi</div>;
+  console.log('home');
+  return <div id="home">test</div>;
 };
 
 export default Home;

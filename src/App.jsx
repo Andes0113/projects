@@ -10,12 +10,10 @@ function App() {
       <div id="App">
         <div id="content">
           <Routes>
-            <Route exact path="/projects" element={<Construction />}>
-              <Route path="Clubfinity" element={<Home />} />
-              <Route path="VolunTurbo" element={<Construction />} />
-              <Route path="Ceptron" element={<Construction />} />
-              <Route path="NYC-SuperBNB" element={<Construction />} />
-            </Route>
+            <Route path="Clubfinity" element={<Home />} />
+            <Route path="VolunTurbo" element={<Construction />} />
+            <Route path="Ceptron" element={<Construction />} />
+            <Route path="NYC-SuperBNB" element={<Construction />} />
             <Route path="*" element={<Construction />} />
           </Routes>
         </div>
